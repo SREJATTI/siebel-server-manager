@@ -1,0 +1,35 @@
+{
+  "name": "crphp/siebel-server-manager",
+  "type": "library",
+  "description": "Biblioteca utilizada para consumir o siebel server manager.",
+  "keywords": [
+    "siebel",
+    "srvrmgr"
+  ],
+  "license": "MIT",
+  "support": {
+    "issues": "https://github.com/crphp/siebel-server-manager/issues",
+    "source": "https://github.com/crphp/siebel-server-manager"
+  },
+  "authors": [
+    {
+      "name": "Fábio Jânio",
+      "email": "contato@fabiojanio.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.1.3"
+  },
+  "config": {
+    "optimize-autoloader": true,
+    "preferred-install": "dist",
+    "sort-packages": true
+  },
+  "autoload": {
+    "psr-4": {
+      "Crphp\\SiebelServerManager\\": "src/"
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
